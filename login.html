@@ -1,25 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+    <link rel="stylesheet" href="style.css">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
     <style>
-#signup{
-    font: bolder;
-     }
-     #image{
-        float: left;
-        width: 35%;
-        margin-right: 10px;
-     }
-    </style>
+        .containerA{
+            background-color: aquamarine;
+        }
+        .image{
+            width:25px ;
+            height: 50px;
+            background-color: aqua;
+        }
+        button{
+            position: relative;
+            border-radius:20px ;
+            padding: 2%;
+            font-size: large;
+        }
+        .body{
+            background-color: aqua;
+        }
+        container{
+            background-color: blue;
+        }
+        
+        </style>
 </head>
 <body>
-    <img src="/lens.jpg" id="image">
+    <div class="container">
+        
+
+
+        <div class="container1"> <img src="/lens.jpg" id="image"> </div>
+
+    
     <form>
-        <h2>Hey,hello</h2>
+        <h2 id="head">Hey,hello</h2>
         <p>Enter the information you entered while registering.</p>
         <label>Don't have an account?
             <button id="signup"><a href="index.html">signup</a></button>
@@ -37,7 +57,7 @@
         <br>
         <br>
         <label>
-        <button type="button"><a href="table.html">login</a></button>
+        <button type="button"><a href="/table.html">login</a></button>
         </label>
 
     </form>

@@ -1,24 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+    <link rel="stylesheet"href="style.css">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>signup</title>
-    <style>
-        #image{
-            float: left;
-            width: 35%;
-            margin-right: 10px;
-        }
-    </style>
+    <title>Signup</title>
 </head>
-<body>
-    <img src="/lens.jpg" id="image">
-    <form>
+<style>
+  button{
+            position: relative;
+            border-radius:20px ;
+            padding: 2%;
+            font-size: large;
+            background-color: aqua;
+        }
+        body{
+            background-color: blueviolet;
+        }  
+</style>
+<body style="background-color: blue;">
+    <div class="container">
+        <div class="container1">
+             <img src="/lens.jpg" id="image"> 
+            </div>
+         <form class="form">
+            <div>
         <h1>Hey,hello</h1>
         <label>Already have an account?
-            <button><a href="login.html">login</a></button>
+            <button><a href="/login.html">login</a></button>
         </label>
         <br>
         <br>
@@ -29,7 +39,7 @@
         <br>
         <label>Password:</label>
         <br>
-        <input type="password">
+        <input type="password" id="password">
         <br>
         <br>
         <label>Remember me</label>
@@ -39,5 +49,9 @@
         
         <button>Signup</button>
     </form>
+    </div>
+    </div>
+</div>
+
 </body>
 </html>

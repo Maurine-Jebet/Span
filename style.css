@@ -1,0 +1,116 @@
+
+.container{
+    justify-content: space-between;
+}
+#image{
+    float: left;
+    width: 35%;
+    margin-right: 10px;
+    background-color: aqua;
+}
+body{
+    background-color: aqua;
+}
+    #head{
+        font-size: larger;
+    }
+    body{
+        background-color: white;
+        font-family: 'Shantell Sans', cursive;
+    }
+    table{
+    width: 800px;
+    height: 500px;
+    border-collapse: collapse;
+    margin: auto;
+    }
+    td,
+    th{
+    border: 2px solid#99e9f2;
+    }
+
+#head{
+        font-size: larger;
+    }
+    body{
+        background-color: white;
+        font-family: 'Shantell Sans', cursive;
+    }
+    table{
+    width: 800px;
+    height: 500px;
+    border-collapse: collapse;
+    margin: auto;
+    }
+    td,
+    th{
+    border: 2px solid#99e9f2;
+    }
+    button{
+        position: relative;
+        border-radius:20px ;
+        padding: 2%;
+        font-size: large;
+        background-color: aqua;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
